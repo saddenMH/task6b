@@ -3,6 +3,11 @@
      padding: 0;
      box-sizing: border-box;
 }
+:root{
+     --maincolor:#c1ab84;
+     --mainfont:font-family: "Rubik", sans-serif;
+     --subfont: font-family: "Playwrite CU", cursive;
+}
 a{
      text-decoration: none;
      color: black;
@@ -231,4 +236,119 @@ height: 200px;
 .icons .icon i{
      font-size:50px;
      color:#8c8a86;
+}
+
+.Info{
+     display: flex;
+     justify-content: center;
+}
+.Info .container{
+     display: flex;
+   justify-content: center;
+}
+.ImageInfo{
+     width: 50%;
+     display: flex;
+     justify-content: center;
+}
+.Info p{
+      color:#353330 ;
+}
+.DataInfo{
+width: 40%;
+display: flex;
+flex-direction: column;
+
+justify-content: center;
+gap: 30px;
+}
+.DataInfo ul{
+     display: flex;
+     flex-direction: column;
+}
+.DataInfo  li{
+     display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.DataInfo .h2{
+     
+     font-size: 40px;
+    font-weight: 300;
+     font-family: var(--mainfont);
+}
+.DataInfo .parag{
+ color: var(--maincolor);
+font-size: 15px;
+font-family: "Playwrite CU", cursive;
+}
+.DataInfo .secpara{
+
+     font-family: var(--mainfont);
+     font-weight: 300;
+}
+.ImageInfoRIV img {
+width:500px;
+height:400px;
+}
+.Review{
+     display: flex;
+     justify-content: center;
+     
+}
+
+.Review .container{
+     display: flex;
+   justify-content: center;
+}
+.ImageInfoRIV{
+     width: 50%;
+     margin-bottom: 5px;
+     display: flex;
+     justify-content: center;
+   
+}
+.Review p{
+      color:#353330 ;
+}
+.DataInfoRIV{
+width: 40%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 30px;
+}
+.DataInfoRIV ul{
+     display: flex;
+     flex-direction: column;
+     gap: 25px;
+}
+.DataInfoRIV  li{
+     display: flex;
+align-items: center;
+gap: 10px;
+}
+.DataInfoRIV .h2{
+     
+     font-size: 40px;
+    font-weight: 300;
+     font-family: var(--mainfont);
+}
+.DataInfoRIV .parag{
+ color: var(--maincolor);
+font-size: 15px;
+font-family: "Playwrite CU", cursive;
+}
+.DataInfoRIV .secpara{
+
+     font-family: var(--mainfont);
+     font-weight: 100;
+}
+.Image{
+     background-image: url(img/restuu.jpg);
+     height: 50vh;
+     background-position: top;
+     background-repeat: no-repeat;
+     background-size:cover ;
 }
